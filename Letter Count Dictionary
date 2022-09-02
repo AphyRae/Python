@@ -1,0 +1,6 @@
+text = input()
+
+for x in text:
+  dict[x] = text.count(x)
+ 
+ print(text)
