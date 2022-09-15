@@ -1,5 +1,5 @@
 word = input()
 vowels = 'a', 'e', 'i', 'o', 'u'
 
-word = [for x in word if x not in vowels]
+word = [x for x in word if x not in vowels]
 print = word
