@@ -1,5 +1,10 @@
-word = input()
-vowels = 'a', 'e', 'i', 'o', 'u'
+def remove_vowels():
 
-word = [x for x in word if x not in vowels]
-print = word
+    word = input('Input: ')
+    vowels = 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'
+    result = ''
+
+    word = [char for char in word if char not in vowels]
+    print('Output:', result.join(word))
+
+remove_vowels()
