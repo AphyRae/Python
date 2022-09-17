@@ -1,0 +1,20 @@
+def vend():
+    due = 50
+    while due > 0:
+        print('Amount Due:', due)
+        coin = int(input('Insert Coin: '))
+        # Only accept 25, 10, or 5 and subtract from amount due
+        if coin == 25:
+            due = due - coin
+        elif coin == 10:
+            due = due - coin
+        elif coin == 5:
+            due = due - coin
+
+        continue
+
+    if due <= 0:
+        # If overpaid print amount owed
+        print('Change Owed:', due * -1)
+
+vend()
