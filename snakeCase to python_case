@@ -1,0 +1,7 @@
+def snake_case():
+
+    cc = input('camelCase: ')
+    print(''.join(['_'+i.lower() if i.isupper()
+                    else i for i in cc]).lstrip('_'))
+                    
+snake_case()
